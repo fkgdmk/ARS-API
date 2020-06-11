@@ -1,0 +1,659 @@
+{
+	"addressId": "5ece88c99fae60ef454ecc84",
+    "generalInformation": {
+        "persons": [
+            {
+                "name": "Fredrik Mikkelsen",
+                "mail": "f@mail.dk",
+                "wantsReport": true,
+                "present": true
+            },
+            {
+                "name": "Lars",
+                "mail": "LarsenMail",
+                "wantsReport": false,
+                "present": false
+            }
+        ],
+        "approvals": [
+            {
+                "name": "communeNotification",
+                "label": "BYGGESAG / ANMELDELSE TIL KOMMUNEN",
+                "necessary": false,
+                "noRemark": true,
+                "recommended": false,
+                "shown": false,
+                "remark": ""
+            },
+            {
+                "name": "vvs",
+                "label": "VVS INSTALLATIONS-GODKENDELSE",
+                "necessary": false,
+                "noRemark": true,
+                "recommended": false,
+                "shown": false,
+                "remark": ""
+            },
+            {
+                "name": "drain",
+                "label": "AFLØBSINSTALLATIONS-GODKENDELSE",
+                "necessary": true,
+                "noRemark": false,
+                "recommended": false,
+                "shown": false,
+                "remark": "Neccesary remark"
+            },
+            {
+                "name": "gas",
+                "label": "GASINSTALLATIONS-GODKENDELSE",
+                "necessary": false,
+                "noRemark": false,
+                "recommended": true,
+                "shown": false,
+                "remark": "Recommended remark"
+            },
+            {
+                "name": "el",
+                "label": "EL-INSTALLATIONS-GODKENDELSE",
+                "necessary": false,
+                "noRemark": false,
+                "recommended": false,
+                "shown": true,
+                "remark": "shown remark"
+            }
+        ],
+        "remarks": [
+            "Bemærkning"
+        ],
+        "owner": "IntegrationTest",
+        "isBuyer": true,
+        "caseNumber": "12345",
+        "reviewDate": "2020-05-12T10:12:44.032Z",
+        "lastReportDate": "2017-05-12T10:12:44.032Z",
+        "takeOverDate": "2017-05-12T10:12:44.032Z",
+        "movedOut": false,
+        "reconstruction": true,
+        "reconstructionByCurrentOwner": true,
+        "reconstructionByFormerOwner": false
+    },
+    "improvements": {
+        "general": [],
+        "kitchen": [],
+        "bathroom": [],
+        "hall": [],
+        "livingroom": []
+    },
+    "maintenanceAreas": {
+        "general": [
+            {
+                "title": "Eltavle",
+                "remark": "test",
+                "condition": {
+                    "approved": true,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "HFI-/HpFI-Relæ",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Stik, afbrydere, udtag",
+                "remark": "1345",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Vinduer og ruder",
+                "remark": "",
+                "condition": {
+                    "approved": true,
+                    "bad": false,
+                    "defective": true
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 90
+                }
+            },
+            {
+                "title": "Vedligeholdelse",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Rydning",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Rengøring",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            }
+        ],
+        "kitchen": [
+            {
+                "title": "Loft",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": true,
+                    "defective": true
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 30,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Vægge",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Gulv",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Træværk",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Skabe",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Bordplade",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Vægfliser",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            }
+        ],
+        "bathroom": [
+            {
+                "title": "Loft",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Vægge",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Gulv",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Træværk",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "WC",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Håndvask",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Bruseinstallation",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Vandinstallation",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Afløbinstallation",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Ventilation",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            }
+        ],
+        "hall": [
+            {
+                "title": "Loft",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Vægge",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Gulv",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Træværk",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            }
+        ],
+        "livingroom": [
+            {
+                "title": "Loft",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Vægge",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Gulv",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Træværk",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            },
+            {
+                "title": "Radiator",
+                "remark": "",
+                "condition": {
+                    "approved": false,
+                    "bad": false,
+                    "defective": false
+                },
+                "payedBy": {
+                    "seller": false,
+                    "ab": false
+                },
+                "sellersAmount": {
+                    "deduction": 0,
+                    "detained": 0
+                }
+            }
+        ]
+    }
+}
